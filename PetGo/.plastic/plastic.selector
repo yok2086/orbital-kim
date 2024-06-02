@@ -1,4 +1,0 @@
-repository "PetGo@mary1112@cloud"
-  path "/"
-    br "/main"
-    co "/main"
