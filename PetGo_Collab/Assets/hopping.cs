@@ -28,22 +28,18 @@ public class hopping : MonoBehaviour
 
     public void Update()
     {
-        //GameObject cleanBar = GameObject.Find("cleanBar");
-        GameObject gameDirector = GameObject.Find("Game Director");
-        float width = gameDirector.GetComponent<GameDirector>().GetAmount();
-        // RectTransform rt = cleanBar.GetComponent<RectTransform>();
-        // float width = rt.rect.width;
-        //Image cleanBarImage = cleanBar.GetComponent<Image>;
-        //float width = cleanBarImage;
-        //Debug.Log(width);
-        if (width == 0f) {
-            jumpforce = 0f;
-        }
-        if (this.transform.position.y <= -2.5f)
-        {
-            //Debug.Log("here_2");
-            this.rigid2D.AddForce(transform.up * this.jumpforce);
-        }
+        
+        // GameObject gameDirector = GameObject.Find("Game Director");
+        // float width = gameDirector.GetComponent<GameDirector>().GetAmount();
+  
+        // if (width == 0f) {
+        //     jumpforce = 0f;
+        // }
+        // if (this.transform.position.y <= -2.5f)
+        // {
+        //     //Debug.Log("here_2");
+        //     this.rigid2D.AddForce(transform.up * this.jumpforce);
+        // }
 
     }
 
