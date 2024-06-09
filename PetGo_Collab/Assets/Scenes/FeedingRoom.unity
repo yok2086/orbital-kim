@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 46171234}
   - component: {fileID: 46171237}
   - component: {fileID: 46171236}
-  - component: {fileID: 46171235}
+  - component: {fileID: 46171238}
   m_Layer: 5
   m_Name: cleanbar
   m_TagString: Untagged
@@ -161,18 +161,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.0159, y: 2.0338}
   m_SizeDelta: {x: 1.3507, y: 0.3164}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &46171235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46171233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d50717c1c0e04d899309c41932854bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &46171236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +199,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46171233}
   m_CullTransparentMesh: 1
+--- !u!114 &46171238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46171233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d50717c1c0e04d899309c41932854bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &63012247
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311684954}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -662,8 +662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.046299994, y: 0.0012000054}
-  m_SizeDelta: {x: 1.2627, y: -0.0895}
+  m_AnchoredPosition: {x: 0.046300054, y: 0.0011999607}
+  m_SizeDelta: {x: 1.2556, y: -0.0895}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &311684956
 MonoBehaviour:
@@ -1110,8 +1110,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.273}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19, y: 0.95}
-  m_SizeDelta: {x: 0.8589, y: 0.9579}
+  m_AnchoredPosition: {x: -0.0834, y: 1.0033}
+  m_SizeDelta: {x: 1.0716, y: 0.8503}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865056066
 MonoBehaviour:
@@ -1940,7 +1940,6 @@ GameObject:
   - component: {fileID: 1543424294}
   - component: {fileID: 1543424297}
   - component: {fileID: 1543424296}
-  - component: {fileID: 1543424295}
   m_Layer: 5
   m_Name: sleepbar
   m_TagString: Untagged
@@ -1968,18 +1967,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.502, y: 2.0338}
   m_SizeDelta: {x: 1.3507, y: 0.3164}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1543424295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543424293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d77d15850df34ddbb547886de976d3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1543424296
 MonoBehaviour:
   m_ObjectHideFlags: 0
