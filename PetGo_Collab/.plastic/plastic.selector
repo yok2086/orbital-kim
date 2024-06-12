@@ -1,4 +1,4 @@
 repository "PetGo_Collab@mary1112@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"  
+     
