@@ -22,8 +22,8 @@ public class HPUI : MonoBehaviour
 
     public void Eat()
     {
-        currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
-        //currentHP += points;
+        //currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
+        currentHP += points;
         Debug.Log("Eat");
     }
 
