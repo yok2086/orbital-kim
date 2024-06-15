@@ -631,6 +631,7 @@ GameObject:
   - component: {fileID: 1396144808}
   - component: {fileID: 1396144811}
   - component: {fileID: 1396144812}
+  - component: {fileID: 1396144813}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Untagged
@@ -767,6 +768,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 4.6199994, y: 5.17}
   m_Direction: 0
+--- !u!114 &1396144813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396144807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a5963dbfae7416688a9d034c113376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1876248502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,7 +1113,6 @@ GameObject:
   - component: {fileID: 2084168273}
   - component: {fileID: 2084168272}
   - component: {fileID: 2084168271}
-  - component: {fileID: 2084168274}
   m_Layer: 5
   m_Name: ShowerButton
   m_TagString: Untagged
@@ -1171,9 +1183,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2084168274}
+      - m_Target: {fileID: 1396144813}
         m_TargetAssemblyTypeName: ToiletHopping, Assembly-CSharp
-        m_MethodName: JumpButton
+        m_MethodName: Jump
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1221,18 +1233,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084168269}
   m_CullTransparentMesh: 1
---- !u!114 &2084168274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084168269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49e1a8628b39745feab4d437b90cefa6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
