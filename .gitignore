@@ -3,9 +3,7 @@
 /PetGo_Collab/.plastic
 /PetGo_Collab/.plastic
 /PetGo_Collab/.plastic
-/PetGo_Collab
+
 *.controller
-/PetGo_Collab/Assets
 /PetGo_Collab/Assets/WebGLSupport
 *.changes
-PetGo_Collab/Assets/.DS_Store
