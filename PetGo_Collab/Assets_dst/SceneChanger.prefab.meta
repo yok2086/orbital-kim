@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:PetGo_Collab/Assets_dst/SceneChanger.prefab.meta
 guid: 770fad88be6e04fa79c271e75ed38596
 PrefabImporter:
+========
+guid: 381dcb09d5029d14897e55f98031fca5
+TextScriptImporter:
+>>>>>>>> main:PetGo_Collab/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
