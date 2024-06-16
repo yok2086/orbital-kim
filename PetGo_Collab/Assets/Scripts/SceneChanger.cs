@@ -14,4 +14,7 @@ public class SceneChanger : MonoBehaviour
     public void goMain() {
         SceneManager.LoadScene("Main scene");
     }
+    public void goBed() {
+        SceneManager.LoadScene("Bedroom");
+    }
 }
