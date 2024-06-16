@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class SceneChanger : MonoBehaviour
 {
@@ -11,5 +13,8 @@ public class SceneChanger : MonoBehaviour
     }
     public void goMain() {
         SceneManager.LoadScene("Main scene");
+    }
+    public void goBed() {
+        SceneManager.LoadScene("Bedroom");
     }
 }
