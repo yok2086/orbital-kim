@@ -11,10 +11,16 @@ public class SceneChanger : MonoBehaviour
     public void goToilet() {
         SceneManager.LoadScene("Toilet");
     }
-    public void goMain() {
-        SceneManager.LoadScene("Main scene");
+    public void goLivingRoom() {
+        SceneManager.LoadScene("LivingRoom");
     }
-    public void goBed() {
+    public void goBedroom() {
         SceneManager.LoadScene("Bedroom");
+    }
+    public void goFeedingRoom() {
+        SceneManager.LoadScene("FeedingRoom");
+    }
+    public void goOutside() {
+        SceneManager.LoadScene("Outside");
     }
 }
