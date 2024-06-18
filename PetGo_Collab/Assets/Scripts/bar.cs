@@ -24,7 +24,24 @@ public class HPUI : MonoBehaviour
     {
         //currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
         currentHP += points;
-        Debug.Log("Eat");
+    }
+
+    public void Clean()
+    {
+        //currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
+        currentHP += points;
+    }
+
+    public void Sleep()
+    {
+        //currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
+        currentHP += 0.3f;
+    }
+
+    public void Nap()
+    {
+        //currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
+        currentHP += points;
     }
 
     // Update is called once per frame
