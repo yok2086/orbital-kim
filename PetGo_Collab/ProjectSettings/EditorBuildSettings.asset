@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Toilet.unity
     guid: 924c49af73b69461f8a89386f84d0069
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/FeedingRoom.unity
     guid: 275ad084ad2414043974def8c0629865
   - enabled: 1
+=======
+>>>>>>> 4ab0ca94f2b936e67f452caaaa30efbcae943999
     path: Assets/Scenes/Bedroom.unity
     guid: 54043bfc82cb642eab2ee80f51692ebd
   m_configObjects: {}
