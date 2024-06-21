@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 63012252}
   - component: {fileID: 63012251}
   - component: {fileID: 63012250}
-  - component: {fileID: 63012253}
+  - component: {fileID: 63012249}
   m_Layer: 0
   m_Name: HomeButton
   m_TagString: Untagged
@@ -306,9 +306,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 63012253}
+      - m_Target: {fileID: 63012249}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: goLivingRoom
+        m_MethodName: goMain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -356,18 +356,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63012247}
   m_CullTransparentMesh: 1
---- !u!114 &63012253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63012247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c21b6fbe6b8e949f9a24817210fa35a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &106288277
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,8 +961,8 @@ Transform:
   m_GameObject: {fileID: 433140291}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.001, y: -2.9522, z: 0}
-  m_LocalScale: {x: 0.23822784, y: 0.3184952, z: 1}
+  m_LocalPosition: {x: -0.001, y: -1.5628, z: 0}
+  m_LocalScale: {x: 0.23822784, y: 0.07126926, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
