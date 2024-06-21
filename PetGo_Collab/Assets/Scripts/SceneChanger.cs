@@ -17,4 +17,14 @@ public class SceneChanger : MonoBehaviour
     public void goBed() {
         SceneManager.LoadScene("Bedroom");
     }
+
+    public void goOut()
+    {
+        SceneManager.LoadScene("Outside");
+    }
+
+    public void goEat()
+    {
+        SceneManager.LoadScene("FeedingRoom");
+    }
 }
