@@ -23,4 +23,8 @@ public class SceneChanger : MonoBehaviour
     public void goOutside() {
         SceneManager.LoadScene("Outside");
     }
+    public void goShop()
+    {
+        SceneManager.LoadScene("Shop");
+    }
 }
