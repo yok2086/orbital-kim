@@ -30,9 +30,18 @@ public class MoneyManager : MonoBehaviour
 
     }
 
-    public void minusMoney(int amount)
+    public bool minusMoney(int amount)
     {
-        Money -= amount;
+        if (Money - amount >= 0)
+        {
+            Money -= amount;
+            return true;
+        }
+        else
+        {
+            return false;
+
+        }
 
     }
 
