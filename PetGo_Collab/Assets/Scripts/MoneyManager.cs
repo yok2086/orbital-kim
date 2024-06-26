@@ -5,17 +5,19 @@ using TMPro;
 
 public class MoneyManager : MonoBehaviour
 {
-    public int Money;
+    public int initialMoney;
     public TextMeshProUGUI moneyText;
+    private int Money;
     // Start is called before the first frame update
     void Start()
     {
-
+        Money = PlayerPrefs.GetInt("Money", initialMoney);
     }
 
     // Update is called once per frame
     void Update()
     {
+        PlayerPrefs.SetInt("Money", Money);
         moneyText.text = Money.ToString();
     }
 
