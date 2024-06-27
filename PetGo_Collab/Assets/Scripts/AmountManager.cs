@@ -23,12 +23,12 @@ public class AmountManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bananaAmountText.text = inventoryManager.GetItemAmount(0).toString();
-        eggAmountText.text = inventoryManager.GetItemAmount(1).toString();
-        appleAmountText.text = inventoryManager.GetItemAmount(2).toString();
-        waterMelonAmountText.text = inventoryManager.GetItemAmount(3).toString();
-        salmonAmountText.text = inventoryManager.GetItemAmount(4).toString();
-        chickenAmountText.text = inventoryManager.GetItemAmount(5).toString();
+        bananaAmountText.text = inventoryManager.GetItemAmount(0).ToString();
+        eggAmountText.text = inventoryManager.GetItemAmount(1).ToString();
+        appleAmountText.text = inventoryManager.GetItemAmount(2).ToString();
+        waterMelonAmountText.text = inventoryManager.GetItemAmount(3).ToString();
+        salmonAmountText.text = inventoryManager.GetItemAmount(4).ToString();
+        chickenAmountText.text = inventoryManager.GetItemAmount(5).ToString();
 
     }
 }

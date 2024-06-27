@@ -1097,7 +1097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.8768, y: 3.3348}
+  m_AnchoredPosition: {x: 1.87677, y: 3.3347778}
   m_SizeDelta: {x: 1.0653, y: 0.9228}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &754061738
@@ -2754,6 +2754,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e414098f734c4f03a92676ca0a64dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bananaAmountText: {fileID: 0}
+  eggAmountText: {fileID: 0}
+  appleAmountText: {fileID: 0}
+  waterMelonAmountText: {fileID: 0}
+  salmonAmountText: {fileID: 0}
+  chickenAmountText: {fileID: 0}
+  inventoryManager: {fileID: 1973113006}
 --- !u!4 &1981900505
 Transform:
   m_ObjectHideFlags: 0

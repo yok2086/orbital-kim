@@ -38,5 +38,19 @@ public class InventoryManager : MonoBehaviour
     {
         return items[itemCode];
     }
+
+    public bool useItem(int itemCode)
+    {
+        if (items[itemCode]==0)
+        {
+            return false;
+        }
+
+        else
+        {
+            items[itemCode]--;
+            return true;
+        }
+    }
 }
 
