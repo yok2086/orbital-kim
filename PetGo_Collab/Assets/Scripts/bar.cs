@@ -25,7 +25,6 @@ public class HPUI : MonoBehaviour
         //currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
         currentHP += points;
     }
-
     public void Clean()
     {
         //currentHp = Mathf.Clamp(currentHP + points, minHp, maxHP);
