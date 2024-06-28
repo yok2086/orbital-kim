@@ -16,6 +16,7 @@ public class HPUI : MonoBehaviour
     public float points = 0.1f;
     void Start()
     {
+        PlayerPrefs.SetFloat(barName, 0);
         currentHP = PlayerPrefs.GetFloat(barName, minHP);
         
     }
