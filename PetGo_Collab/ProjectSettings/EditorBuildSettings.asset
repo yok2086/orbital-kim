@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FeedingRoom.unity
     guid: 275ad084ad2414043974def8c0629865
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: a7695a4d9c7ab408380709048a4085aa
   m_configObjects: {}

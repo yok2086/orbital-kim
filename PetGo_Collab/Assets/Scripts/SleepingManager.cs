@@ -9,20 +9,20 @@ public class FeedingManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void Feed(int itemCode)
+    public void Sleep(int itemCode)
     {
         bool result = inventoryManager.useItem(itemCode);
 
-        if(result)
+        if (result)
         {
             hpUI.AddBarGauge();
         }
