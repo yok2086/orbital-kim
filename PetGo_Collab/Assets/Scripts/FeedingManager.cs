@@ -24,7 +24,7 @@ public class FeedingManager : MonoBehaviour
 
         if(result)
         {
-            hpUI.Eat();
+            hpUI.AddBarGauge();
         }
     }
 }
