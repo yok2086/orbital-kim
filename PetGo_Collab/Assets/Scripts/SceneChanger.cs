@@ -8,21 +8,31 @@ using UnityEngine.UI;
 public class SceneChanger : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void goToilet() {
+    public void goToilet()
+    {
         SceneManager.LoadScene("Toilet");
     }
-    public void goLivingRoom() {
+
+    public void goLivingRoom()
+    {
         SceneManager.LoadScene("LivingRoom");
     }
-    public void goBedroom() {
+
+    public void goBedroom()
+    {
         SceneManager.LoadScene("Bedroom");
     }
-    public void goFeedingRoom() {
+
+    public void goFeedingRoom()
+    {
         SceneManager.LoadScene("FeedingRoom");
     }
-    public void goOutside() {
+
+    public void goOutside()
+    {
         SceneManager.LoadScene("Outside");
     }
+
     public void goShop()
     {
         SceneManager.LoadScene("Shop");

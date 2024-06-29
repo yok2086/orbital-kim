@@ -12,14 +12,14 @@ public class TextManager : MonoBehaviour
         moneyNotEnoughText.gameObject.SetActive(false);
     }
 
-    public IEnumerator  ShowTextForSeconds( int seconds)
+    public IEnumerator  ShowTextForSeconds(int seconds)
     {
         moneyNotEnoughText.gameObject.SetActive(true);
         yield return new WaitForSeconds(seconds);
         moneyNotEnoughText.gameObject.SetActive(false);
     }
 
-    public void DisplayTextForSeconds( int seconds)
+    public void DisplayTextForSeconds(int seconds)
     {
         StartCoroutine(ShowTextForSeconds(seconds));
 
