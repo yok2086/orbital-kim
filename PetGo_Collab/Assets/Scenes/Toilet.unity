@@ -3051,7 +3051,7 @@ MonoBehaviour:
   minHP: 0
   currentHP: 0
   maxHP: 1
-  points: 0.1
+  points: 0.5
 --- !u!4 &1772153526
 Transform:
   m_ObjectHideFlags: 0
