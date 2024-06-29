@@ -620,6 +620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abe023e08d9da4a378091b5be3ce6c2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 1216030361}
+  levelText: {fileID: 0}
 --- !u!114 &345528916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,6 +634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69bbe375cfe44f9687c5ba7c1e2ce3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderText: {fileID: 638815271}
+  maxSliderAmount: 200
 --- !u!4 &345528917
 Transform:
   m_ObjectHideFlags: 0
