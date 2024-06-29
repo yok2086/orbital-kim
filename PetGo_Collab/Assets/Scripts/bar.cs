@@ -13,11 +13,13 @@ public class HPUI : MonoBehaviour
     public float currentHP = 0f;
     public float maxHP = 1f;
     public float points = 0.1f;
+    public float dataToKeep; 
     void Start()
     {
         currentHP = minHP;
         filledBar.fillAmount = currentHP;
-        
+        currentHP = StaticData.hungryBar;
+      
     }
 
     public void Eat()
@@ -43,6 +45,23 @@ public class HPUI : MonoBehaviour
         currentHP += points;
     }
 
+    public void KeepHungryValue() 
+    {
+        dataToKeep = currentHP; 
+        StaticData.hungryBar = dataToKeep; 
+    }
+    public void KeepCleanValue() 
+    {
+        dataToKeep = currentHP; 
+        StaticData.cleanBar = dataToKeep; 
+    }
+    public void KeepSleepValue() 
+    {
+        dataToKeep = currentHP; 
+        StaticData.sleepBar = dataToKeep; 
+    }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -54,5 +73,7 @@ public class HPUI : MonoBehaviour
         //}
         //filledBar.fillamount = currentHP / maxHP;
         filledBar.color = gradient.Evaluate(filledBar.fillAmount);
+        // Debug.Log(dataToKeep); 
+        //currentHP = StaticData.hungryBar; /////////
     } 
 }
