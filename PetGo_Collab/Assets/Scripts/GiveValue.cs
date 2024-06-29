@@ -16,10 +16,5 @@ public class GiveValue : MonoBehaviour
         sleepBar = StaticData.sleepBar;
        
     }
-    public void Update()
-    {
-        Debug.Log("hungry:" + hungryBar);
-        Debug.Log("clean:" + cleanBar);
-        Debug.Log("sleep" + sleepBar);
-    }
+ 
 }

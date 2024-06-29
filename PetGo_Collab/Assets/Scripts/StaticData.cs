@@ -9,6 +9,7 @@ public class StaticData : MonoBehaviour
     public static float cleanBar; 
 
     public static float sleepBar; 
-
+    public static float sliderValue; 
+    public static int levelValue; 
 
 } 
