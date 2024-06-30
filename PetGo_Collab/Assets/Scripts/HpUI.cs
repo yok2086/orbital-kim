@@ -16,12 +16,18 @@ public class HPUI : MonoBehaviour
     public float points = 0.1f;
     void Start()
     {
-        //PlayerPrefs.SetFloat(barName, 0);
+        PlayerPrefs.SetFloat(barName, 0);
         currentHP = PlayerPrefs.GetFloat(barName, minHP);
-        
+
     }
 
     public void AddBarGauge()
+    {
+        currentHP += points;
+
+    }
+
+    public void AddBarGauge(float points)
     {
         currentHP += points;
 
@@ -33,5 +39,5 @@ public class HPUI : MonoBehaviour
         PlayerPrefs.SetFloat(barName, currentHP);
         filledBar.fillAmount = currentHP;
         filledBar.color = gradient.Evaluate(filledBar.fillAmount);
-    } 
+    }
 }
