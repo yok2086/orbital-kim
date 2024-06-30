@@ -19,7 +19,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build/Build/Build/Build/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build/Build/Build/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build/Build/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/WebGL Builds;;;;\"}"
+                "value": "{\"m_Value\":\"/Users/gyurim/kim-s-studio/PetGo_Collab/petgo1;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build/Build/Build/Build/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build/Build/Build/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build/Build/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL/Build;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/PetGo_WebGL;/Users/hyunjinkim/Documents/GitHub/kim-s-studio/PetGo_Collab/WebGL Builds;;;\"}"
             }
         ]
     }
