@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6269159179444851492, guid: 336d838014f474e37b463ee949f44afa, type: 3}
+      - m_Target: {fileID: 190650101}
         m_TargetAssemblyTypeName: SleepingManager, Assembly-CSharp
         m_MethodName: Sleep
         m_Mode: 2
