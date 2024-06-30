@@ -11,7 +11,7 @@ public class MoneyManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Money = PlayerPrefs.GetInt("Money", initialMoney);
+        Money = PlayerPrefs.GetInt("Money", 1000000);
     }
 
     // Update is called once per frame
