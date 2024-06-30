@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
 public class ExpNumController : MonoBehaviour
 {
     public Slider slider; 
@@ -11,7 +12,7 @@ public class ExpNumController : MonoBehaviour
     private float level; 
     public float levelVal; 
     private float expNum = 0.0f; 
-
+    public MoneyManager MoneyManager; 
     [SerializeField] private TextMeshProUGUI levelText = null;
     [SerializeField] private TextMeshProUGUI sliderText = null;
     [SerializeField] private float maxSliderAmount = 200.0f;
@@ -56,31 +57,32 @@ public class ExpNumController : MonoBehaviour
             PlayerPrefs.SetFloat("HungryBar", 0);
         }
         if (PlayerPrefs.GetFloat("CleanBar", 0) >= 1.0f) {
-            slider.value += 0.05f;
+            slider.value += 0.5f;
             PlayerPrefs.SetFloat("CleanBar", 0);
         }
         if (PlayerPrefs.GetFloat("SleepBar", 0) >= 1.0f) {
-            slider.value += 0.05f;
+            slider.value += 0.5f;
             PlayerPrefs.SetFloat("SleepBar", 0);
         }
 
         if(slider.value >= 1.0f) {
             //level += 1;
             //StaticData.levelValue += 1;
-            level = PlayerPrefs.GetFloat("levelVal", 0);
-            level += 1;
+            //PlayerPrefs.GetFloat("levelVal", 0) += 1;
+            PlayerPrefs.SetFloat("levelVal", PlayerPrefs.GetFloat("levelVal",0) + 1.0f);
             //PlayerPrefs.SetFloat("levelVal", level);
             //levelText.text = StaticData.levelValue.ToString();
-            levelText.text = level.ToString();
+            levelText.text = PlayerPrefs.GetFloat("levelVal", 0).ToString();
             //StaticData.levelValue = level; 
 
             slider.value = 0.0f;
+            MoneyManager.addMoney(20000); 
            // Debug.Log(StaticData.levelValue);
 
         }
         //StaticData.sliderValue = slider.value; 
         PlayerPrefs.SetFloat("sliderVal", slider.value);
-        PlayerPrefs.SetFloat("levelVal", level);
+        //PlayerPrefs.SetFloat("levelVal", level);
 
 
         

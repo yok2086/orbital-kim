@@ -8,7 +8,7 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        items[0] = PlayerPrefs.GetInt("bananaAmount", 0);
+        items[0] = PlayerPrefs.GetInt("bananaAmount", 5);
         items[1] = PlayerPrefs.GetInt("eggAmount", 0);
         items[2] = PlayerPrefs.GetInt("appleAmount", 0);
         items[3] = PlayerPrefs.GetInt("waterMelonAmount", 0);
@@ -41,7 +41,7 @@ public class InventoryManager : MonoBehaviour
 
     public bool useItem(int itemCode)
     {
-        if (items[itemCode]==0)
+        if (items[itemCode] == 0)
         {
             return false;
         }
