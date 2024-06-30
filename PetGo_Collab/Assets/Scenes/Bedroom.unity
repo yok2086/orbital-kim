@@ -306,7 +306,6 @@ MonoBehaviour:
   pillow: {fileID: 562944672}
   bed: {fileID: 630291728}
   water: {fileID: 889110672}
-  barGauge: 0
 --- !u!1 &198716467
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,8 +941,8 @@ Transform:
   m_GameObject: {fileID: 449973626}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -539.9393, y: -958.7732, z: 0}
-  m_LocalScale: {x: 2.1223865, y: 3.5170727, z: 1}
+  m_LocalPosition: {x: -539.9982, y: -958.7732, z: 0}
+  m_LocalScale: {x: 2.1232889, y: 3.5170727, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 530590675}
@@ -990,7 +989,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2ff3d8530d1c44d99ae99283314655fa, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 0.8509804}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1295,10 +1294,10 @@ MonoBehaviour:
       - m_Target: {fileID: 190650101}
         m_TargetAssemblyTypeName: SleepingManager, Assembly-CSharp
         m_MethodName: Sleep
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1699,10 +1698,10 @@ MonoBehaviour:
       - m_Target: {fileID: 190650101}
         m_TargetAssemblyTypeName: SleepingManager, Assembly-CSharp
         m_MethodName: Sleep
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2136,10 +2135,10 @@ MonoBehaviour:
       - m_Target: {fileID: 190650101}
         m_TargetAssemblyTypeName: SleepingManager, Assembly-CSharp
         m_MethodName: Sleep
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -17,7 +17,7 @@ public class SleepingManager : MonoBehaviour
 
     private bool isTimerRunning = false;
     private float time;
-    public float barGauge;
+    private float barGauge;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +63,6 @@ public class SleepingManager : MonoBehaviour
     public void Sleep(Button button)
     {
         StartTimer(button);
-        hpUI.AddBarGauge(barGauge);
     }
 
     private void StartTimer(Button button)
