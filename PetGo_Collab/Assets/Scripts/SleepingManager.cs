@@ -9,7 +9,7 @@ public class SleepingManager : MonoBehaviour
     public HPUI hpUI;
     public GameObject black;
     public TextMeshProUGUI timerText;
-
+    public Button homeButton;
     public Button pillow;
     public Button bed;
     public Button water;
@@ -30,6 +30,7 @@ public class SleepingManager : MonoBehaviour
         pillow.interactable = signal;
         bed.interactable = signal;
         water.interactable = signal;
+        homeButton.interactable = signal;
 
     }
 
