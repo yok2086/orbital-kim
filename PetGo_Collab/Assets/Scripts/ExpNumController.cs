@@ -24,7 +24,9 @@ public class ExpNumController : MonoBehaviour
     {
         // slider.value = StaticData.sliderValue; //slider = GameObject.Find("XpBar").GetComponent<Slider>();
         // levelText.text = StaticData.levelValue.ToString();//level = 0; 
+        //PlayerPrefs.SetFloat("sliderVal",0);
         slider.value = PlayerPrefs.GetFloat("sliderVal", 0);
+        Debug.Log(slider.value);
         levelText.text = PlayerPrefs.GetFloat("levelVal", 0).ToString();
     }
 
@@ -53,15 +55,15 @@ public class ExpNumController : MonoBehaviour
         //     StaticData.sleepBar = 0.0f; 
         // }
         if (PlayerPrefs.GetFloat("HungryBar", 0)>= 1.0f) {
-            slider.value += 0.5f;
+            slider.value += 0.3f;
             PlayerPrefs.SetFloat("HungryBar", 0);
         }
         if (PlayerPrefs.GetFloat("CleanBar", 0) >= 1.0f) {
-            slider.value += 0.5f;
+            slider.value += 0.3f;
             PlayerPrefs.SetFloat("CleanBar", 0);
         }
         if (PlayerPrefs.GetFloat("SleepBar", 0) >= 1.0f) {
-            slider.value += 0.5f;
+            slider.value += 0.3f;
             PlayerPrefs.SetFloat("SleepBar", 0);
         }
 
