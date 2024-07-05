@@ -37,4 +37,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Shop");
     }
+
+    public void goLuckyDraw()
+    {
+        SceneManager.LoadScene("LuckyDraw");
+    }
 }
