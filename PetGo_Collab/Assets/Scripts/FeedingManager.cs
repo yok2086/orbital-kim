@@ -6,6 +6,7 @@ public class FeedingManager : MonoBehaviour
 {
     public InventoryManager inventoryManager;
     public HPUI hpUI;
+    public TextManager TextManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +21,21 @@ public class FeedingManager : MonoBehaviour
 
     public void Feed(int itemCode)
     {
-        bool result = inventoryManager.useItem(itemCode);
-
-        if(result)
+        if(hpUI.isFull())
         {
-            hpUI.AddBarGauge();
+            TextManager.DisplayTextForSeconds(2);
+
+        }
+
+        else
+        {
+            bool result = inventoryManager.useItem(itemCode);
+            if (result)
+            {
+                hpUI.AddBarGauge();
+
+            }
+
         }
     }
 }
