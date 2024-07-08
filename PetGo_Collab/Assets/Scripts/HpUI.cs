@@ -33,6 +33,13 @@ public class HPUI : MonoBehaviour
 
     }
 
+    public bool isFull()
+    {
+        return filledBar.fillAmount == maxHP;
+
+
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -40,4 +47,6 @@ public class HPUI : MonoBehaviour
         filledBar.fillAmount = currentHP;
         filledBar.color = gradient.Evaluate(filledBar.fillAmount);
     }
+
+ 
 }
