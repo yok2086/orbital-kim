@@ -14,6 +14,16 @@ public class InventoryManager : MonoBehaviour
         items[3] = PlayerPrefs.GetInt("waterMelonAmount", 0);
         items[4] = PlayerPrefs.GetInt("salmonAmount", 0);
         items[5] = PlayerPrefs.GetInt("chickenAmount", 0);
+        //
+        items[6] = PlayerPrefs.GetInt("blackAmount", 0);
+        items[7] = PlayerPrefs.GetInt("pinkAmount", 0);
+        items[8] = PlayerPrefs.GetInt("redAmount", 0);
+        items[9] = PlayerPrefs.GetInt("yellowAmount", 0);
+        items[10] = PlayerPrefs.GetInt("blueAmount", 0);
+        items[11] = PlayerPrefs.GetInt("sunglassesAmount", 0);
+        items[12] = PlayerPrefs.GetInt("ribbonAmount", 0);
+        items[13] = PlayerPrefs.GetInt("boneAmount", 0);
+        items[14] = PlayerPrefs.GetInt("ballAmount", 0);
 
     }
 
@@ -22,10 +32,20 @@ public class InventoryManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("bananaAmount", items[0]);
         PlayerPrefs.SetInt("eggAmount", items[1]);
-        PlayerPrefs.SetInt("appleAmount", items[2]);
+        PlayerPrefs.SetInt("appleAmount", items[8]);
         PlayerPrefs.SetInt("waterMelonAmount", items[3]);
         PlayerPrefs.SetInt("salmonAmount", items[4]);
         PlayerPrefs.SetInt("chickenAmount", items[5]);
+        //
+        PlayerPrefs.SetInt("blackAmount", items[6]);
+        PlayerPrefs.SetInt("pinkAmount", items[7]);
+        PlayerPrefs.SetInt("redAmount", items[8]);
+        PlayerPrefs.SetInt("yellowAmount", items[9]);
+        PlayerPrefs.SetInt("blueAmount", items[10]);
+        PlayerPrefs.SetInt("sunglassesAmount", items[11]);
+        PlayerPrefs.SetInt("ribbonAmount", items[12]);
+        PlayerPrefs.SetInt("boneAmount", items[13]);
+        PlayerPrefs.SetInt("ballAmount", items[14]);
 
     }
 
