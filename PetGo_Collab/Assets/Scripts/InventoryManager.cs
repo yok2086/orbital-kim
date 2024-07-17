@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class InventoryManager : MonoBehaviour
 {
-    int[] items = new int[6];
+    int[] items = new int[15];
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +32,7 @@ public class InventoryManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("bananaAmount", items[0]);
         PlayerPrefs.SetInt("eggAmount", items[1]);
-        PlayerPrefs.SetInt("appleAmount", items[8]);
+        PlayerPrefs.SetInt("appleAmount", items[2]);
         PlayerPrefs.SetInt("waterMelonAmount", items[3]);
         PlayerPrefs.SetInt("salmonAmount", items[4]);
         PlayerPrefs.SetInt("chickenAmount", items[5]);
