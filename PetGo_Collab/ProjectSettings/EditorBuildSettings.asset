@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LuckyDraw.unity
     guid: 4a19391f8c5c844bbb4e951358c48a0f
+  - enabled: 1
+    path: Assets/Scenes/Boutique.unity
+    guid: 732b706ff49174482abc1c30d8de3fc9
   m_configObjects: {}
