@@ -12,7 +12,6 @@ public class AmountManager : MonoBehaviour
     public TextMeshProUGUI waterMelonAmountText;
     public TextMeshProUGUI salmonAmountText;
     public TextMeshProUGUI chickenAmountText;
-    public TextMeshProUGUI blackAmountText;
 
 
     public InventoryManager inventoryManager;
@@ -31,7 +30,5 @@ public class AmountManager : MonoBehaviour
         waterMelonAmountText.text = inventoryManager.GetItemAmount(3).ToString();
         salmonAmountText.text = inventoryManager.GetItemAmount(4).ToString();
         chickenAmountText.text = inventoryManager.GetItemAmount(5).ToString();
-        blackAmountText.text = inventoryManager.GetItemAmount(6).ToString();
-
     }
 }

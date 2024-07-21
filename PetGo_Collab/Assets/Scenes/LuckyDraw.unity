@@ -670,6 +670,7 @@ MonoBehaviour:
   spinWheel: {fileID: 1462633456}
   black: {fileID: 1106477829}
   homeButton: {fileID: 720087988}
+  timerText: {fileID: 1333504205}
 --- !u!4 &635790935
 Transform:
   m_ObjectHideFlags: 0
