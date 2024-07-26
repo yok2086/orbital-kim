@@ -15,7 +15,7 @@ public class ShopManager : MonoBehaviour
         4000, // watermelon
         500,  // salmon
         600,  // chicken
-        1000,// black
+        20000,// black
         20000,// pink
         5000, // red
         5000, // yellow

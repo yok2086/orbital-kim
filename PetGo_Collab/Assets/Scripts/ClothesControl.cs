@@ -7,6 +7,8 @@ public class ClothesControl : MonoBehaviour
 {
     // Start is called before the first frame update
     public Animator DogAnim;
+    public InventoryManager InventoryManager;
+    
     void Start()
     {
 
@@ -14,45 +16,78 @@ public class ClothesControl : MonoBehaviour
 
     public void BlackClicked()
     {
-        DogAnim.SetTrigger("BlackClothes");
+        InventoryManager.useItem(6);
+        if ((PlayerPrefs.GetInt("blackAmount",0) >= 1)) 
+        {
+            DogAnim.SetTrigger("BlackClothes");
+        } 
     }
     public void PinkClicked()
     {
-        DogAnim.SetTrigger("PinkClothes");
+        InventoryManager.useItem(7);
+        if (PlayerPrefs.GetInt("pinkAmount",0) >= 1) 
+        {
+            DogAnim.SetTrigger("PinkClothes");
+        }
+        
     }
 
     public void RedClicked()
     {
-        DogAnim.SetTrigger("RedClothes");
+        InventoryManager.useItem(8);
+        if (PlayerPrefs.GetInt("redAmount",0) >= 1) 
+        {
+            DogAnim.SetTrigger("RedClothes");
+        }
     }
 
     public void YellowClicked()
     {
-        DogAnim.SetTrigger("YellowClothes");
+        InventoryManager.useItem(9);
+        if (PlayerPrefs.GetInt("yellowAmount",0) >= 1) 
+        {
+            DogAnim.SetTrigger("YellowClothes");
+        }
     }
 
     public void BlueClicked()
     {
-        DogAnim.SetTrigger("BlueClothes");
+        InventoryManager.useItem(10);
+        if (PlayerPrefs.GetInt("blueAmount",0) >= 1) {
+            DogAnim.SetTrigger("BlueClothes");
+        }
+        
+    }
+    public void SunglassesClicked()
+    {
+        InventoryManager.useItem(11);
+        if (PlayerPrefs.GetInt("sunglassesAmount",0) >= 1) {
+            DogAnim.SetTrigger("Sunglasses");
+        }
     }
 
     public void RibbonClicked()
-    {
-        DogAnim.SetTrigger("Ribbon");
+    { 
+        InventoryManager.useItem(12);
+        if (PlayerPrefs.GetInt("ribbonAmount",0) >= 1) {
+            DogAnim.SetTrigger("Ribbon");
+        }
     }
 
-    public void SunglassesClicked()
-    {
-        DogAnim.SetTrigger("Sunglasses");
-    }
 
     public void BoneClicked()
     {
-        DogAnim.SetTrigger("Bone");
+        InventoryManager.useItem(13);
+        if (PlayerPrefs.GetInt("boneAmount",0) >= 1) {
+            DogAnim.SetTrigger("Bone");
+        }
     }
     public void BallClicked()
     {
-        DogAnim.SetTrigger("Ball");
+        InventoryManager.useItem(14);
+        if (PlayerPrefs.GetInt("ballAmount",0) >= 1) {
+            DogAnim.SetTrigger("Ball");
+        }
     }
 
 
