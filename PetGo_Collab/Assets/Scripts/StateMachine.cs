@@ -20,15 +20,18 @@ public class StateMachine : MonoBehaviour
         {
             StateController.SetTrigger("Tired"); 
         }
+
         if (PlayerPrefs.GetFloat("HungryBar") < 0.5f)
         {
-            StateController.SetTrigger("Hungry"); 
+            StateController.SetTrigger("HungryDog"); 
             Debug.Log("HungryBar < 0.5");
         }
+
         if (PlayerPrefs.GetFloat("CleanBar") < 0.5f)
         {
             StateController.SetTrigger("Dirty"); 
         }
+
         Debug.Log(PlayerPrefs.GetFloat("HungryBar"));
     }
 }
