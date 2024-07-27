@@ -17,9 +17,6 @@ public class ToiletHopping : MonoBehaviour
         this.rigid2D = GetComponent<Rigidbody2D>();
         this.transform1 = GetComponent<Transform>();
 
-        Debug.Log("toilethopping");
-
-
         if (this.transform1.position.y <= 0f)
         {
             this.rigid2D.AddForce(transform.up * this.jumpforce);

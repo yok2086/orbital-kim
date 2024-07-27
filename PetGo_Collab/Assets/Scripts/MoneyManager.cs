@@ -15,17 +15,11 @@ public class MoneyManager : MonoBehaviour
         if (PlayerPrefs.GetInt("MoneySwitch", 0) == 0) 
         {
             initialMoney = 20000; 
-            Debug.Log("Initial Money " + initialMoney); 
             PlayerPrefs.SetInt("Money", initialMoney);
             Money = PlayerPrefs.GetInt("Money", initialMoney); 
             moneyText.text = Money.ToString();
-            // Debug.Log("Initial Money " + initialMoney); 
             PlayerPrefs.SetInt("MoneySwitch", 1) ;
         }
-        // else 
-        // {
-        //     Money = PlayerPrefs.GetInt("Money", initialMoney);
-        // }
     }
 
     // Update is called once per frame
@@ -36,7 +30,6 @@ public class MoneyManager : MonoBehaviour
         }  
         PlayerPrefs.SetInt("Money", Money);
         moneyText.text = Money.ToString();
-        //Money = PlayerPrefs.GetInt("Money",20000);
     }
 
     public int getMoney()

@@ -17,7 +17,7 @@ public class ClothesControl : MonoBehaviour
     public void BlackClicked()
     {
         InventoryManager.useItem(6);
-        if ((PlayerPrefs.GetInt("blackAmount",0) >= 1)) 
+        if (PlayerPrefs.GetInt("blackAmount",0) >= 1) 
         {
             DogAnim.SetTrigger("BlackClothes");
         } 
@@ -95,10 +95,6 @@ public class ClothesControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (PlayerPrefs.GetInt("blackAmount") >= 1) {
-        //     Walking.SetTrigger("Black"); 
-        // }
-
-        //Debug.Log(PlayerPrefs.GetInt("blackAmount")); 
+      
     }
 }
