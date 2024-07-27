@@ -52,7 +52,7 @@ public class SleepingManager : MonoBehaviour
         }
         else if (button == water)
         {
-            return 5.0f;
+            return 8.0f;
         }
         else
         {
