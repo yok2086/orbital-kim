@@ -72,7 +72,6 @@ public class ExpNumController : MonoBehaviour
                 MoneyManager.addMoney(20000);
             }
             PlayerPrefs.SetFloat("expVal", image.fillAmount);
-            Debug.Log(image.fillAmount);
         }
         expText.text = (PlayerPrefs.GetFloat("expVal", 0) * maxExpAmount).ToString("0");
     }

@@ -87,7 +87,7 @@ public class SleepingManager : MonoBehaviour
             barGauge = 0.4f;
         }
 
-        else if (button == bed)
+        else if (button == water)
         {
             barGauge = 0.1f;
         }
