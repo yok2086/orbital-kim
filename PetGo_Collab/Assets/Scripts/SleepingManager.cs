@@ -44,7 +44,7 @@ public class SleepingManager : MonoBehaviour
     {
         if (button == pillow)
         {
-            return 10.0f;
+            return 5.0f;
         }
         else if (button == bed)
         {
