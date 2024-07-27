@@ -6,7 +6,7 @@ public class InitialPoint : MonoBehaviour
 {
     public void Switch() 
     {
-            PlayerPrefs.SetFloat("sliderVal", 0f);
+            PlayerPrefs.SetFloat("expVal", 0f);
             PlayerPrefs.SetFloat("levelVal", 0f);
             PlayerPrefs.SetFloat("HungryBar", 0f);
             PlayerPrefs.SetFloat("CleanBar", 0f);
