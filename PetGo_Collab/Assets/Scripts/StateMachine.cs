@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class StateMachine : MonoBehaviour
 {
-    public Animator TiredAnim; 
-    public Animator HungryAnim; 
-    public Animator DirtyAnim; 
+    public Animator StateController; 
+   
 
     // Start is called before the first frame update
     void Start()
@@ -19,16 +18,20 @@ public class StateMachine : MonoBehaviour
     {
         if (PlayerPrefs.GetFloat("SleepBar") < 0.5f)
         {
-            TiredAnim. SetTrigger("Tired"); 
+            StateController.SetTrigger("Tired"); 
         }
+
         if (PlayerPrefs.GetFloat("HungryBar") < 0.5f)
         {
-            HungryAnim. SetTrigger("Hungry"); 
+            StateController.SetTrigger("HungryDog"); 
+            Debug.Log("HungryBar < 0.5");
         }
+
         if (PlayerPrefs.GetFloat("CleanBar") < 0.5f)
         {
-            DirtyAnim. SetTrigger("Dirty"); 
+            StateController.SetTrigger("Dirty"); 
         }
+
         Debug.Log(PlayerPrefs.GetFloat("HungryBar"));
     }
 }
