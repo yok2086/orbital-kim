@@ -976,7 +976,7 @@ GameObject:
   - component: {fileID: 1106477831}
   - component: {fileID: 1106477830}
   m_Layer: 0
-  m_Name: black
+  m_Name: Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
